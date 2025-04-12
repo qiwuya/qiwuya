@@ -1,0 +1,21 @@
+.wrap{
+	width: 1040px;
+	height: 320px;
+	position: relative;
+	margin: auto;
+	margin-top: 200px;
+	border: 10px solid black;
+	overflow: hidden;
+}
+.picsBox{
+	width: 208px;
+	height: 320px;
+	float: left;
+	transition: all 0.7s;
+}
+.wrap:hover .picsBox{
+	width: 100px;
+}
+.wrap .picsBox:hover{
+	width: 640px;
+}
